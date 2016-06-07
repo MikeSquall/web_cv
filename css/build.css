@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+/***********    GENERAL   ***********/
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    background: url("../img/bg_bionic.jpg") fixed;
+    background-size: cover;
+}
+
+h2 {
+    color: #2e7daf;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bg-dark {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    z-index: -1;
+    padding: 20px 150px 10px 150px;
+}
+
+b {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.row {
+    padding: 50px;
+}
+
+.align-gauche {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+/***********    HEADER   ***********/
+.jumbotron {
+    background: rgba(255, 255, 255, 0);
+}
+
+.container {
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+    position: relative;
+    top: 15%;
+}
+
+.container h1 {
+    margin-top: 30px;
+}
+
+.container .sous-titre {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+/***********    CONTACT   ***********/
+
+.social-container {
+    list-style: none;
+}
+
+.social-container>li>a {
+    color: #666;
+}
+
+.social-container>li>a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    margin: 5px;
+    display: inline-block;
+    background: url('../img/sprite_cv.png') no-repeat;
+}
+
+.icon-mail {
+    background-position: 0 -48px;
+}
+
+.icon-mail:hover , .icon-mail.hovered {
+    background-position: 0 0px;
+}
+
+.icon-phone {
+    background-position: -48px -48px;
+}
+
+.icon-phone:hover, .icon-phone.hovered {
+    background-position: -48px 0px;
+}
+
+.icon-linkedin {
+    background-position: -96px -48px;
+}
+
+.icon-linkedin:hover, .icon-linkedin.hovered {
+    background-position: -96px 0px;
+}
+
+.icon-github {
+    background-position: -144px -48px;
+}
+
+.icon-github:hover, .icon-github.hovered {
+    background-position: -144px 0px;
+}
