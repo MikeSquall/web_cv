@@ -339,6 +339,13 @@ b {
 /*       MOBILE       */
 /**********************/
 
+@media screen and (max-width: 991px) {
+    
+    #portrait {
+        margin-left: 35%;
+    }
+}
+
 @media screen and (max-width: 767px) {
     
     .jumbotron #chevron {
@@ -370,6 +377,11 @@ b {
     
     .bg-dark, .bg-white {
         padding: 50px 10px 50px 10px;    
+    }
+    
+    
+    #portrait {
+        margin-left: 5%;
     }
     
     .xp-details {
