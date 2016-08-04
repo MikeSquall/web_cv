@@ -51,6 +51,9 @@ $(".vignette").hover(function(){
 
 //
 
+// affichage hauteur 100% du navigateur
+
+
 
 
 
