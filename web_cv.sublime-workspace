@@ -1,0 +1,980 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ste",
+				"stepNumber"
+			],
+			[
+				"x",
+				"xIsNext"
+			],
+			[
+				"pr",
+				"props"
+			],
+			[
+				"po",
+				"props"
+			],
+			[
+				"on",
+				"onPressed"
+			],
+			[
+				"err",
+				"error"
+			],
+			[
+				"me",
+				"messageString"
+			],
+			[
+				"de",
+				"description"
+			],
+			[
+				"Re",
+				"ReactNative"
+			],
+			[
+				"re",
+				"react"
+			],
+			[
+				"bo",
+				"borrowed_books"
+			],
+			[
+				"bor",
+				"borrowed_books	param"
+			],
+			[
+				"al",
+				"all_books	statement"
+			],
+			[
+				"list",
+				"list_users	function"
+			],
+			[
+				"lis",
+				"list_books	function"
+			],
+			[
+				"ad",
+				"add_user	function"
+			],
+			[
+				"ut",
+				"utilisateur"
+			],
+			[
+				"to",
+				"to_list	statement"
+			],
+			[
+				"all",
+				"all_books	param"
+			],
+			[
+				"sor",
+				"sorted_list	statement"
+			],
+			[
+				"li",
+				"list_eleve	param"
+			],
+			[
+				"pos",
+				"possible_ids	statement"
+			],
+			[
+				"no",
+				"nom"
+			],
+			[
+				"comp",
+				"complex	class"
+			],
+			[
+				"su",
+				"supprimer	function"
+			],
+			[
+				"ra",
+				"raw_input	function"
+			],
+			[
+				"vol",
+				"voliere"
+			],
+			[
+				"s",
+				"sexe	statement"
+			],
+			[
+				"nno",
+				"nom_scientifique"
+			],
+			[
+				"imm",
+				"immatriculation"
+			],
+			[
+				"ve",
+				"vehicules_stationnes	statement"
+			],
+			[
+				"__",
+				"__init__	init"
+			],
+			[
+				"v",
+				"vehicules	statement"
+			],
+			[
+				"cl",
+				"classes	module"
+			],
+			[
+				"nb",
+				"nb_places"
+			],
+			[
+				"nu",
+				"num_choisi	param"
+			],
+			[
+				"en",
+				"encours	param"
+			],
+			[
+				"ch",
+				"check_mise"
+			],
+			[
+				"ran",
+				"range	function"
+			],
+			[
+				"V",
+				"ValueError	class"
+			],
+			[
+				"qui",
+				"quitter	function"
+			],
+			[
+				"in",
+				"input	function"
+			],
+			[
+				"poi",
+				"points_du_joueur	statement"
+			],
+			[
+				"mo",
+				"modifier_points	function"
+			],
+			[
+				"che",
+				"checked_reponse"
+			],
+			[
+				"que",
+				"question_posee	statement"
+			],
+			[
+				"qu",
+				"question_posee	statement"
+			],
+			[
+				"rep",
+				"reponses	statement"
+			],
+			[
+				"ques",
+				"questions	statement"
+			],
+			[
+				"vir",
+				"virtualenv"
+			],
+			[
+				"dir",
+				"directory"
+			],
+			[
+				"gi",
+				"github_user"
+			],
+			[
+				"n",
+				"new_dir"
+			],
+			[
+				"wo",
+				"workspaces"
+			],
+			[
+				"new",
+				"new_virtualenv"
+			],
+			[
+				"inst",
+				"installed"
+			],
+			[
+				"t",
+				"type"
+			],
+			[
+				"c",
+				"cmd_install"
+			],
+			[
+				"ta",
+				"table	function"
+			],
+			[
+				"e",
+				"echo"
+			],
+			[
+				"vi",
+				"virtualenv"
+			],
+			[
+				"d",
+				"done"
+			],
+			[
+				"ne",
+				"new_dir"
+			],
+			[
+				"ca",
+				"call"
+			],
+			[
+				"coo",
+				"coog"
+			],
+			[
+				"trytond",
+				"trytond-modules"
+			],
+			[
+				"tryt",
+				"trytond"
+			],
+			[
+				"co",
+				"code	statement"
+			],
+			[
+				"sys",
+				"system	function"
+			],
+			[
+				"con",
+				"continuer	statement"
+			],
+			[
+				"an",
+				"angle"
+			],
+			[
+				"S",
+				"Serial"
+			],
+			[
+				"pi",
+				"pinLed"
+			],
+			[
+				"va",
+				"val"
+			],
+			[
+				"IR",
+				"IRpin"
+			],
+			[
+				"pin",
+				"pinLed1"
+			],
+			[
+				"di",
+				"digitalWrite	Arduino digitalWrite"
+			],
+			[
+				"sw",
+				"switch	Arduino switch"
+			],
+			[
+				"H",
+				"HttpResponse	class"
+			],
+			[
+				"Http",
+				"HttpResponse	class"
+			],
+			[
+				"id",
+				"id_article	param"
+			],
+			[
+				"Ht",
+				"HttpResponse	class"
+			],
+			[
+				"k",
+				"keys	statement"
+			],
+			[
+				"st",
+				"state2"
+			],
+			[
+				"sta",
+				"state1"
+			],
+			[
+				"pinPm",
+				"pinPMotor1"
+			],
+			[
+				"pin1",
+				"pin1Motor2"
+			],
+			[
+				"get",
+				"getNom"
+			],
+			[
+				"jou",
+				"joueurActif"
+			],
+			[
+				"fi",
+				"fin_partie"
+			],
+			[
+				"J",
+				"J2"
+			],
+			[
+				"A",
+				"Accueil"
+			],
+			[
+				"choi",
+				"choix_menu"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"sau",
+				"sauvegardé"
+			],
+			[
+				"sa",
+				"save_test"
+			],
+			[
+				"sav",
+				"save_test"
+			],
+			[
+				"sauve",
+				"sauvegarder"
+			],
+			[
+				"fich",
+				"fichier_trajet"
+			],
+			[
+				"T",
+				"TAILLE_NOM_FICHIER"
+			],
+			[
+				"fic",
+				"fichier_trajet"
+			],
+			[
+				"TA",
+				"TAILLE_NOM_FICHIER"
+			],
+			[
+				"jon",
+				"jonction_j2"
+			],
+			[
+				"jonc",
+				"jonction_j1"
+			],
+			[
+				"tra",
+				"trajet"
+			],
+			[
+				"rec",
+				"recup_saisie_user"
+			],
+			[
+				"te",
+				"test_accueil"
+			],
+			[
+				"arr",
+				"point_arrivee"
+			],
+			[
+				"point",
+				"point_arrivee"
+			],
+			[
+				"au",
+				"autre"
+			],
+			[
+				"choix_",
+				"choix_menu"
+			],
+			[
+				"it",
+				"itineraire_de_base_calcule"
+			],
+			[
+				"jo",
+				"jonction_tmp"
+			],
+			[
+				"tab",
+				"tab_jonctions"
+			],
+			[
+				"poin",
+				"point_arrivee"
+			],
+			[
+				"le",
+				"lenght"
+			],
+			[
+				"pl",
+				"plus_courte_jonction"
+			],
+			[
+				"tab_",
+				"tab_noms_rues"
+			],
+			[
+				"mode",
+				"mode_trajet"
+			],
+			[
+				"N",
+				"NON_TROUVE"
+			],
+			[
+				"choix",
+				"choix_mode"
+			],
+			[
+				"ini",
+				"init_rues_distances"
+			],
+			[
+				"cha",
+				"char"
+			],
+			[
+				"f",
+				"fichier_noms"
+			],
+			[
+				"tes",
+				"test_init"
+			],
+			[
+				"NO",
+				"NOM_FICHIER"
+			],
+			[
+				"pa",
+				"passage"
+			],
+			[
+				"anne",
+				"année"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 342.0,
+		"last_filter": "in",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"es",
+				"ESLint"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"jsx",
+				"Set Syntax: JSX"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"bin",
+				"Preferences: Key Bindings - Default"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Squall/Sites/webcv"
+	],
+	"file_history":
+	[
+		"/Users/Squall/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Squall/workspaces/tuto_app_react/src/App.js",
+		"/Users/Squall/Library/Application Support/Sublime Text 3/Packages/ESLint/ESLint.sublime-settings",
+		"/Users/Squall/Library/Application Support/Sublime Text 3/Packages/User/ESLint.sublime-settings",
+		"/Users/Squall/Downloads/correction/MeteoFiveView.js",
+		"/Users/Squall/Downloads/correction/MeteoView.js",
+		"/Users/Squall/OCReactApp/node_modules/react-native/Libraries/Renderer/src/renderers/shared/stack/reconciler/ReactReconciler.js",
+		"/Users/Squall/OCReactApp/node_modules/promise/setimmediate/core.js",
+		"/Users/Squall/Downloads/fichiers-2/MeteoPage.js",
+		"/Users/Squall/Downloads/fichiers-2/MeteoView.js",
+		"/Users/Squall/OCReactApp/ios/OCReactApp/Info.plist",
+		"/Users/Squall/OCReactApp/node_modules/promise/setimmediate/rejection-tracking.js",
+		"/Users/Squall/OCReactApp/node_modules/react-native/Libraries/BatchedBridge/MessageQueue.js",
+		"/Users/Squall/Library/Application Support/Sublime Text 3/Packages/sublime-react-ide/ReactIDE.sublime-settings",
+		"/Users/Squall/Desktop/cours_p7/eleves/eleve.py",
+		"/Users/Squall/Desktop/cours_p7/parking/classes.py",
+		"/Users/Squall/Desktop/cours_p7/parking/main.py",
+		"/Users/Squall/Desktop/cours_p7/continue.py",
+		"/Users/Squall/Desktop/cours_p7/pendu/pendu.py",
+		"/Users/Squall/Desktop/main.py",
+		"/Users/Squall/Desktop/eleve.py",
+		"/Users/Squall/Desktop/M2_PISE/Langage_C/cours_c/liste_eleve.c",
+		"/Users/Squall/Desktop/cours_p7/zoo/zoo.py",
+		"/Users/Squall/Desktop/cours_p7/zoo/animals.py",
+		"/Users/Squall/Desktop/test.html",
+		"/Users/Squall/Desktop/cours_p7/zCasino/fonctions.py",
+		"/Users/Squall/Desktop/cours_p7/zCasino/main.py",
+		"/Users/Squall/Desktop/cours_p7/fonctions_quizz.py",
+		"/Users/Squall/Desktop/cours_p7/quizz.py",
+		"/Users/Squall/Desktop/CasinoZ.py",
+		"/Volumes/DAMIEN USB/CasinoZ.py",
+		"/Users/Squall/Desktop/test.sh",
+		"/Users/Squall/Desktop/coog_install.sh",
+		"/Users/Squall/Desktop/setup_new_coog_workspace.py",
+		"/Users/Squall/Desktop/cours_p7/try.py",
+		"/Users/Squall/Desktop/cours_p7/dict.py",
+		"/Users/Squall/workspaces/coog/coog/bin/coog",
+		"/Users/Squall/Desktop/aa.py",
+		"/Users/Squall/Desktop/test_os.py",
+		"/Users/Squall/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/Squall/Desktop/test3.py",
+		"/Users/Squall/Desktop/doebel_marie.py",
+		"/Users/Squall/Desktop/exo4.py",
+		"/Users/Squall/Desktop/lignes.py",
+		"/Users/Squall/Desktop/doebel marie.py",
+		"/Users/Squall/Desktop/cours_p7/conditions/test.py",
+		"/Users/Squall/Desktop/cours_p7/conditions/3-1.py",
+		"/Users/Squall/Desktop/cours_p7/conditions/3-2.py",
+		"/Users/Squall/Desktop/demo.py",
+		"/Users/Squall/.vimrc",
+		"/Users/Squall/Documents/Arduino/robot_car/ir_signal.ino",
+		"/Users/Squall/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/Squall/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Squall/Desktop/code/python/dico.py",
+		"/Users/Squall/Documents/Arduino/robot_car/robot_car.ino",
+		"/Users/Squall/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Squall/Documents/Arduino/robot_car.ino",
+		"/Users/Squall/Library/Application Support/Sublime Text 3/Packages/User/include.sublime-snippet",
+		"/Users/Squall/Desktop/java/Piece.java",
+		"/Users/Squall/Desktop/java/EcranPrincipal.java",
+		"/Users/Squall/Desktop/DragnGhostDemo/src/dragnghostdemo/run-application.bat",
+		"/Users/Squall/Downloads/DragnGhost/run-application.bat",
+		"/Users/Squall/Desktop/projet_c#/csharp_kamisado/kamisado/Partie.cs",
+		"/Users/Squall/Desktop/projet_java/Blokus/src/blokus/Piece.java",
+		"/Users/Squall/Desktop/projet_c#/csharp_kamisado/kamisado/Sauvegarde.cs",
+		"/Users/Squall/Downloads/jquery-validation-1.15.0/demo/marketo/index.html",
+		"/Users/Squall/.ssh/id_rsa",
+		"/Users/Squall/.ssh/id_rsa.pub",
+		"/Users/Squall/Desktop/projet_c#/csharp_kamisado/kamisado/bin/Debug/kamisado_save.xml",
+		"/Users/Squall/Sites/ludirent/communes.json",
+		"/Users/Squall/Desktop/projet_c#/csharp_kamisado/kamisado/obj/Debug/kamisado.pdb",
+		"/Users/Squall/Desktop/projet_c#/csharp_kamisado/kamisado/Partie.resx",
+		"/Users/Squall/Desktop/projet_c#/csharp_kamisado/regles.html",
+		"/Users/Squall/Desktop/projet_c/dijkstra.c",
+		"/Users/Squall/Documents/data-mining/index.html",
+		"/Users/Squall/Desktop/projet_c/principal.c",
+		"/Users/Squall/Downloads/test.c",
+		"/Users/Squall/Desktop/c/map.c",
+		"/Users/Squall/Desktop/c/gps.c",
+		"/Users/Squall/Desktop/c/mimo.c",
+		"/Users/Squall/Downloads/principal_sauvegarde.c",
+		"/Users/Squall/Desktop/save_principal.c",
+		"/Users/Squall/Desktop/projet_c/test.c",
+		"/Users/Squall/Desktop/dijkstra/dijkstra.c",
+		"/Users/Squall/Desktop/M2_PISE/pise-php/README.md",
+		"/Users/Squall/Desktop/code/python/bissextile_2.py",
+		"/Users/Squall/Desktop/M2_PISE/java/Exo21.java",
+		"/Users/Squall/Desktop/M2_PISE/java/Exo28.java",
+		"/Users/Squall/Desktop/code/python/template.py",
+		"/Users/Squall/Desktop/M2_PISE/java/test.java",
+		"/Users/Squall/Desktop/pise.c",
+		"/Users/Squall/Sites/pise/infos.php",
+		"/Users/Squall/Sites/pise/index.php",
+		"/Users/Squall/Desktop/mike.c",
+		"/Users/Squall/Desktop/liste_eleve_examen.c",
+		"/Users/Squall/Desktop/mimo.c",
+		"/Users/Squall/Desktop/gps.c",
+		"/Users/Squall/Desktop/test.c",
+		"/Users/Squall/Desktop/optimisation_tableau.c",
+		"/Users/Squall/Desktop/M2_PISE/Langage_C/cours_c/liste_eleve_chainee.c",
+		"/Users/Squall/Desktop/map.c",
+		"/Users/Squall/Desktop/graph.c",
+		"/Users/Squall/Desktop/tri_bulle.c",
+		"/Users/Squall/Desktop/Cours OpenClassroom/sdz_cours_c/pendu.c",
+		"/Users/Squall/Desktop/bla.c",
+		"/Users/Squall/Desktop/d_liste.c",
+		"/Users/Squall/Desktop/M2_PISE/Langage_C/cours_c/hanoi.c",
+		"/Users/Squall/Desktop/M2_PISE/Langage_C/cours_c/rech_multi.c",
+		"/Users/Squall/Desktop/nan.c",
+		"/Users/Squall/Desktop/template_liste.c",
+		"/Users/Squall/Desktop/M2_PISE/Langage_C/cours_c/tableau2.c",
+		"/Users/Squall/Desktop/M2_PISE/Langage_C/cours_c/rech_multi2",
+		"/Users/Squall/Desktop/M2_PISE/Langage_C/cours_c/struct.c",
+		"/Users/Squall/Desktop/exo.c",
+		"/Users/Squall/Desktop/cours_c/tableau2.c",
+		"/Users/Squall/Desktop/exo algo 9.txt",
+		"/Users/Squall/Desktop/sdz_cours_c/pendu.c",
+		"/Users/Squall/Desktop/sdz_cours_c/test.c",
+		"/Users/Squall/Desktop/cours_c/test.c",
+		"/Users/Squall/Desktop/sdz_cours_c/pendu.h",
+		"/Users/Squall/Desktop/cours_c/tableau.c",
+		"/Users/Squall/Desktop/cours_c/sapin.c",
+		"/Users/Squall/Desktop/sdz_cours_c/table.h",
+		"/Users/Squall/Desktop/sdz_cours_c/table.c",
+		"/Users/Squall/Desktop/cours_c/modele.c",
+		"/Users/Squall/Desktop/cours_c/base.c",
+		"/Users/Squall/Desktop/cours_c/prem4.c",
+		"/Users/Squall/Desktop/cours_c/prem3.c"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 94.0,
+		"where_history":
+		[
+			"/Users/Squall/OCReactApp"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"then",
+			"container",
+			"choix",
+			"available_books",
+			"book",
+			"author",
+			"title",
+			"list_all_books",
+			"eleve",
+			"list_eleve",
+			"afficher",
+			"prenom",
+			"nom",
+			"saisir",
+			"author",
+			"title",
+			"Book",
+			"age",
+			"Etudiant",
+			"prenom",
+			"nom",
+			"age",
+			"vehicules_stationnes",
+			"input",
+			"or",
+			"random_number",
+			"choosen_number",
+			"coog",
+			"coog-celery\ncoog-chain\ncoog-client\ncoog-code\ncoog-dep\ncoog-docker\ncoog-env\ncoog-help\ncoog-init\ncoog-joke\ncoog-module\ncoog-perf\ncoog-project\ncoog-redis\ncoog-repo\ncoog-rq\ncoog-server\ncoog-start\ncoog-stop\ncoog-test\ncoog-ts\ncoog-unoconv\ncoog-worker",
+			"worksapces",
+			"null",
+			"tab",
+			"commande",
+			"install",
+			"commande",
+			"foo",
+			"python",
+			"message",
+			"os.system",
+			"system",
+			"call",
+			"os.system(",
+			"relais",
+			"^",
+			"super+",
+			"  },\n  \"",
+			"\"1",
+			"choix_sommet",
+			"purge()",
+			"HEAD",
+			"scanf",
+			"verif_saisie_numerique",
+			"recup_saisie_user",
+			"scanf",
+			"recup_saisie_user",
+			"INFINI",
+			"HEAD",
+			"oui",
+			"non",
+			"passage",
+			"trajet",
+			"conv_char_speciaux",
+			"tab_arcs",
+			"saisie[i]",
+			"conv_char_speciaux",
+			"poids",
+			"ante",
+			"predecesseur",
+			"dijkstra_colorier_sommet",
+			"tab_arcs_noms",
+			"-20",
+			"-1",
+			"nom",
+			"20",
+			"etat_temp",
+			"tri",
+			"consult",
+			"Consultation",
+			"consultation",
+			"NON_DEFINI",
+			"MAX_CONSULT",
+			"type_consultation",
+			"10000",
+			"		\n",
+			"nb_no"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'tryton' 'trytond' 'trytond-modules' 'sao' 'coog' 'coog-bench'",
+			"  },\n  \"0",
+			"\"01",
+			"c",
+			"",
+			"c",
+			"longueur",
+			"modele_temp",
+			"repair",
+			"Reparation",
+			"reparation",
+			"MAX_REPARATION",
+			"libelle_type"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 112.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.Arduino":
+	{
+		"height": 86.0
+	},
+	"output.exec":
+	{
+		"height": 78.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.robot_car":
+	{
+		"height": 238.0
+	},
+	"output.stino_log":
+	{
+		"height": 86.0
+	},
+	"output.stino_panel":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "web_cv.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inde",
+				"index.ios.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/Arduino/arduino.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 239.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

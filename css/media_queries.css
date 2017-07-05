@@ -1,6 +1,12 @@
 /**********************/
-/*       MOBILE       */
+/*    Media queries   */
 /**********************/
+
+@media screen and (min-width: 1600px) {
+    .container {
+        height: 100vh;
+    }
+}
 
 @media screen and (max-width: 991px) {
     

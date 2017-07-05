@@ -9,6 +9,7 @@
         <!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="img/favicon-m.png" /><![endif]-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <link rel="stylesheet" media="screen" href="css/custom.css">
+        <link rel="stylesheet" media="screen" href="css/media_queries.css">
     </head>
     <body data-spy="scroll" data-target="#myNavbar">
         <div class="jumbotron">
@@ -42,8 +43,7 @@
         
         
         <div id="profile" class="bg-dark">
-            <h2>À propos de moi</h2>
-            <h5>La version courte de ce que vous devez savoir</h5>
+            <h2>En résumé</h2>
             <div class="row">
                 <div class="col-md-4 col-sm-12">
                     <h3 class="align-gauche">Qui suis-je ?</h3>
@@ -52,7 +52,7 @@
                     </p>
                     <p class="align-gauche">J'ai ensuite choisi de poursuivre dans cette voie en m'inscrivant au Master 2 PISE de la fac de Paris 7 Diderot, qui forme à la gestion de projets informatiques et à la programmation de manière intensive des élèves venant de cursus divers.
                     </p>
-                    <p class="align-gauche">Pour l'anecdote, j'ai commencé ma carrière professionnelle en tant que pâtissier mais j'ai été contraint d'y renoncer pour raisons médicales.
+                    <p class="align-gauche">Pour l'anecdote, j'ai commencé ma carrière professionnelle en tant que pâtissier mais j'ai été contraint d'y renoncer.
                     </p>
                 </div>
                 <div class="col-md-4 col-sm-12">
@@ -66,15 +66,12 @@
                     <p class="align-gauche"><b>Âge</b> : <span id="ageCalc"></span> ans</p>
                     <p class="align-gauche"><b>Habite</b> : Saint-Brice-sous-Forêt (95)</p>
                     <br/>
-                    <h3 class="align-gauche">Centres d'intérêts</h3>
+                    <h3 class="align-gauche">Ce que je fais de mon temps libre :</h3>
                     <hr/>
                     <ul>
-                        <li>les nouvelles technologies</li>
-                        <li>l' IoT</li>
-                        <li>Arduino</li>
-                        <li>la Pâtisserie</li>
-                        <li>Jeux de plateau</li>
-                        <li>Drone de loisir</li>
+                        <li>de la programmation Arduino</li>
+                        <li>de la pâtisserie</li>
+                        <li>du drone de loisir</li>
                     </ul>
                 </div>
             </div>
@@ -82,19 +79,34 @@
         
         <div id="experiences" class="bg-white">
             <h2>Expériences</h2>
-            <h5>La version plus détaillée de ce qui m'a conduit là</h5>
             <div class="row">
                 <!-- ***** POSTES ***** -->
                 <div class="col-md-12">
                     <hr/>
                     <h3 class="align-gauche">Postes occupés</h3>
                 </div>
+                <!-- Dev Coopengo -->
+                <div class="xp-ligne col-md-12">
+                    <div class="col-md-4">
+                        <a href="http://www.coopengo.com/" target="_blank"><h4>Coopengo</h4></a>
+                        <img src="img/coopengo.png" class="xp-image" alt="Coopengo"/>
+                        <p>Nov. 2016 - Maintenant</p>
+                        <a href="https://www.google.fr/maps/place/1+Rue+d'Hauteville,+75010+Paris/@48.8709487,2.3474526,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66e169ec88645:0x37c3e16eb05892b!8m2!3d48.8709487!4d2.3496413" target="_blank"><span class="glyphicon glyphicon-globe"></span> Paris (75)</a>
+                    </div>
+                    <div class="col-md-8">
+                        <h4 class="poste">Développeur Backend</h4>
+                        <p class="xp-details">Ma première expérience en tant que développeur.</p>
+                        <p class="xp-details">Je participe au développement d'un ERP spécialisé (dans la gestion de contrats d'assurance) basé sur l'ERP open source <a href="https://www.tryton.org"><strong>Tryton</strong></a></p>
+                        <p class="xp-details">Je suis également en charge du pilotage de la partie Support client. J'ai mis en place des outils de suivi de l'activité du support et des process de déclaration d'incidents par les clients</p>
+                    </div>
+                    <div class="col-md-12 separator"></div>
+                </div>
                 <!-- CP MOA -->
                 <div class="xp-ligne col-md-12">
                     <div class="col-md-4">
                         <a href="http://www.epargnegmf.fr/" target="_blank"><h4>GMF Vie</h4></a>
                         <img src="img/logo-GMF1.jpg" class="xp-image" alt="GMF"/>
-                        <p>Sept. 2014 - Aujourd'hui</p>
+                        <p>Sept. 2014 - Oct. 2016</p>
                         <a href="https://www.google.fr/maps/place/Ermont/data=!4m2!3m1!1s0x47e667ba7576b8b5:0x40b82c3688b3320?sa=X&sqi=2&ved=0ahUKEwjQhKv_2PPMAhUCkiwKHf6sCzAQ8gEIfjAM" target="_blank"><span class="glyphicon glyphicon-globe"></span> Ermont (95)</a>
                     </div>
                     <div class="col-md-8">
@@ -149,6 +161,7 @@
                         <p class="xp-details">Mission longue en intérim en tant que commis ou chef de partie chez : <br/><a href="http://www.lamaisonduchocolat.fr/fr/" target="_blank">La Maison du Chocolat</a>, <a href="http://www.poteletchabot.com/fr/accueil.html" target="_blank">Potel et Chabot</a>, <a href="www.fauchon.com/" target="_blank">Fauchon</a></p>
                     </div>
                 </div>
+
                 <!-- ***** FORMATIONS ***** -->
                 <div class="col-md-12">
                     <hr/>
@@ -244,7 +257,6 @@
         
         <div id="abilities" class="bg-dark">
             <h2>Compétences</h2>
-            <h5>La version technique de qui je suis</h5>
             <div class="row">
                 <div class="col-md-12">
                     <hr/>
@@ -253,25 +265,7 @@
                         <h4>Langages</h4>
                         <hr/>
                         <div class="col-md-12">
-                            <div class="col-md-6 tech-nom"><p>Algorithmique</p></div>
-                            <div class="col-md-6 tech-stat">
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:75%">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="col-md-6 tech-nom"><p>Langage C</p></div>
-                            <div class="col-md-6 tech-stat">
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="col-md-6 tech-nom"><p>HTML 5</p></div>
+                            <div class="col-md-6 tech-nom"><p>HTML</p></div>
                             <div class="col-md-6 tech-stat">
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:90%">
@@ -280,7 +274,7 @@
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <div class="col-md-6 tech-nom"><p>CSS 3</p></div>
+                            <div class="col-md-6 tech-nom"><p>CSS</p></div>
                             <div class="col-md-6 tech-stat">
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:85%">
@@ -289,7 +283,7 @@
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <div class="col-md-6 tech-nom"><p>JS / jQuery</p></div>
+                            <div class="col-md-6 tech-nom"><p>JS</p></div>
                             <div class="col-md-6 tech-stat">
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:60%">
@@ -298,37 +292,19 @@
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <div class="col-md-6 tech-nom"><p>SQL</p></div>
+                            <div class="col-md-6 tech-nom"><p>SQL / Postgres</p></div>
                             <div class="col-md-6 tech-stat">
                                 <div class="progress">
-                                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:70%">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <div class="col-md-6 tech-nom"><p>PHP</p></div>
+                            <div class="col-md-6 tech-nom"><p>Python</p></div>
                             <div class="col-md-6 tech-stat">
                                 <div class="progress">
-                                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:65%">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="col-md-6 tech-nom"><p>Java</p></div>
-                            <div class="col-md-6 tech-stat">
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="col-md-6 tech-nom"><p>C#</p></div>
-                            <div class="col-md-6 tech-stat">
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:70%">
                                     </div>
                                 </div>
                             </div>
@@ -337,7 +313,7 @@
                             <div class="col-md-6 tech-nom"><p>Bash</p></div>
                             <div class="col-md-6 tech-stat">
                                 <div class="progress">
-                                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:60%">
                                     </div>
                                 </div>
                             </div>
@@ -347,7 +323,7 @@
                         <h4>Outils</h4>
                         <hr/>
                         <div class="col-md-12">
-                            <div class="col-md-6 tech-nom"><p>Mac OS X</p></div>
+                            <div class="col-md-6 tech-nom"><p>OS X</p></div>
                             <div class="col-md-6 tech-stat">
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:90%">
@@ -356,28 +332,10 @@
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <div class="col-md-6 tech-nom"><p>iWork</p></div>
+                            <div class="col-md-6 tech-nom"><p>Linux</p></div>
                             <div class="col-md-6 tech-stat">
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="col-md-6 tech-nom"><p>GNU / Linux</p></div>
-                            <div class="col-md-6 tech-stat">
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:60%">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="col-md-6 tech-nom"><p>Windows</p></div>
-                            <div class="col-md-6 tech-stat">
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:90%">
                                     </div>
                                 </div>
                             </div>
@@ -392,28 +350,19 @@
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <div class="col-md-6 tech-nom"><p>Illustrator</p></div>
-                            <div class="col-md-6 tech-stat">
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
                             <div class="col-md-6 tech-nom"><p>Git / Github</p></div>
                             <div class="col-md-6 tech-stat">
                                 <div class="progress">
-                                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:80%">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <div class="col-md-6 tech-nom"><p>MAMP</p></div>
+                            <div class="col-md-6 tech-nom"><p>Docker</p></div>
                             <div class="col-md-6 tech-stat">
                                 <div class="progress">
-                                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:60%">
                                     </div>
                                 </div>
                             </div>
@@ -455,11 +404,43 @@
         
         <div id="projects" class="bg-white">
             <h2>Projets</h2>
-            <h5>La version concrète de ce dont je suis capable aujourd'hui</h5>
             
             <!-- réalisés -->
             <div class="row">
                 <h3>Projets réalisés</h3>
+                <hr/>
+                <!-- Web CV -->
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <a href="http://michaelarbib.com" target="_blank">
+                        <figure class="vignette">
+                            <img src="img/michaelarbib_com.png" alt="Web CV"/>
+                            <figcaption>
+                                <p class="vignette-title">Michael ARBIB</p>
+                                <hr/>
+                                <p class="vignette-text">Le site que vous visitez</p>
+                                <p class="vignette-text">#web_cv, #frontend, #myself</p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <!-- Coopengo -->
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <a href="https://github.com/coopengo/coog-admin" target="_blank">
+                        <figure class="vignette">
+                            <img src="img/coog.png" alt="Coog-admin"/>
+                            <figcaption>
+                                <p class="vignette-title">Coog Admin</p>
+                                <hr/>
+                                <p class="vignette-text">Coog Toolkit</p>
+                                <p class="vignette-text">#bash, #coog, #coopengo</p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <h3>Projets d'études</h3>
                 <hr/>
                 <!-- Projet C -->
                 <div class="col-md-6 col-sm-12 col-xs-12">
@@ -475,25 +456,11 @@
                         </figure>
                     </a>
                 </div>
-                <!-- Web CV -->
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                    <a href="http://michaelarbib.com" target="_blank">
-                        <figure class="vignette">
-                            <img src="img/michaelarbib_com.png" alt="projet-c"/>
-                            <figcaption>
-                                <p class="vignette-title">Michael ARBIB</p>
-                                <hr/>
-                                <p class="vignette-text">Le site que vous visitez</p>
-                                <p class="vignette-text">#web_cv, #frontend, #myself</p>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </div>
                 <!-- Ludirent -->
                 <div class="col-md-6 col-sm-12 col-xs-12">
                     <a href="http://www.ludirent.fr" target="_blank">
                         <figure class="vignette">
-                            <img src="img/ludirent.png" alt="projet-c"/>
+                            <img src="img/ludirent.png" alt="Ludirent"/>
                             <figcaption>
                                 <p class="vignette-title">Ludirent</p>
                                 <hr/>
@@ -508,7 +475,7 @@
                 <div class="col-md-6 col-sm-12 col-xs-12">
                     <a href="https://github.com/MikeSquall/kamisado" target="_blank">
                         <figure class="vignette">
-                            <img src="img/kamisado.png" alt="projet-c"/>
+                            <img src="img/kamisado.png" alt="Kamisado"/>
                             <figcaption>
                                 <p class="vignette-title">Kamisado</p>
                                 <hr/>
@@ -522,7 +489,7 @@
                 <div class="col-md-6 col-sm-12 col-xs-12">
                     <a href="https://github.com/MikeSquall/java_blokus" target="_blank">
                         <figure class="vignette">
-                            <img src="img/blokus.png" alt="projet-c"/>
+                            <img src="img/blokus.png" alt="Blokus"/>
                             <figcaption>
                                 <p class="vignette-title">Blokus</p>
                                 <hr/>
@@ -542,12 +509,12 @@
                 <div class="col-md-6 col-sm-12 col-xs-12">
                     <a href="" target="_blank">
                         <figure class="vignette">
-                            <img src="img/en-cours.png" alt="projet-c"/>
+                            <img src="img/en-cours.png" alt="WIP"/>
                             <figcaption>
                                 <p class="vignette-title">???</p>
                                 <hr/>
                                 <p class="vignette-text"></p>
-                                <p class="vignette-text">#JS, #Node</p>
+                                <p class="vignette-text">#ReactJS, #Node, #Django</p>
                             </figcaption>
                         </figure>
                     </a>
