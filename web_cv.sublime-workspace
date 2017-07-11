@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"d",
+				"div"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"mi",
+				"min-width"
+			],
+			[
 				"ste",
 				"stepNumber"
 			],
@@ -246,10 +258,6 @@
 			[
 				"vi",
 				"virtualenv"
-			],
-			[
-				"d",
-				"done"
 			],
 			[
 				"ne",
@@ -506,19 +514,35 @@
 			[
 				"NO",
 				"NOM_FICHIER"
-			],
-			[
-				"pa",
-				"passage"
-			],
-			[
-				"anne",
-				"année"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "app/src/App.js",
+			"settings":
+			{
+				"buffer_size": 539,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/src/components/test.js",
+			"settings":
+			{
+				"buffer_size": 983,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/src/components/section.js",
+			"settings":
+			{
+				"buffer_size": 41,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -593,10 +617,17 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Squall/Sites/webcv"
+		"/Users/Squall/Sites/webcv",
+		"/Users/Squall/Sites/webcv/app",
+		"/Users/Squall/Sites/webcv/app/src",
+		"/Users/Squall/Sites/webcv/app/src/components"
 	],
 	"file_history":
 	[
+		"/Users/Squall/Sites/webcv/app/src/App.css",
+		"/Users/Squall/Sites/webcv/css/media_queries.css",
+		"/Users/Squall/Sites/webcv/index.html",
+		"/Users/Squall/Sites/webcv/css/custom.css",
 		"/Users/Squall/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/Squall/workspaces/tuto_app_react/src/App.js",
 		"/Users/Squall/Library/Application Support/Sublime Text 3/Packages/ESLint/ESLint.sublime-settings",
@@ -720,15 +751,11 @@
 		"/Users/Squall/Desktop/cours_c/tableau.c",
 		"/Users/Squall/Desktop/cours_c/sapin.c",
 		"/Users/Squall/Desktop/sdz_cours_c/table.h",
-		"/Users/Squall/Desktop/sdz_cours_c/table.c",
-		"/Users/Squall/Desktop/cours_c/modele.c",
-		"/Users/Squall/Desktop/cours_c/base.c",
-		"/Users/Squall/Desktop/cours_c/prem4.c",
-		"/Users/Squall/Desktop/cours_c/prem3.c"
+		"/Users/Squall/Desktop/sdz_cours_c/table.c"
 	],
 	"find":
 	{
-		"height": 22.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -743,6 +770,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"circle",
 			"then",
 			"container",
 			"choix",
@@ -858,8 +886,97 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/src/App.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 539,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								205,
+								205
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/src/components/test.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 983,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								728,
+								728
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/src/components/section.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 41,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -950,7 +1067,7 @@
 		[
 			[
 				"",
-				"~/Documents/Arduino/arduino.sublime-project"
+				"~/workspaces/react_tuto/react_tuto_steph.sublime-project"
 			]
 		],
 		"width": 380.0

@@ -1,0 +1,336 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+/***********    GENERAL   ***********/
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    background: url("../img/bg_bionic.jpg") fixed;
+}
+
+h2 {
+    color: #2e7daf;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3, h4 {
+    font-weight: bolder;
+}
+
+h4 {
+    color: #2e7daf;
+    margin-top: 20px;
+}
+
+h5 {
+    text-align: center;
+    font-style: italic;
+}
+
+.bg-dark {
+    background-color: #333;
+    color: #fff;
+    min-height: 730px;
+    width: 100%;
+    z-index: -1;
+    padding: 50px 150px 50px 150px;
+}
+
+.bg-white {
+    background-color: #fff;
+    color: #22427C;
+    min-height: 730px;
+    z-index: -1;
+    padding: 50px 150px 50px 150px;
+}
+
+b {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.row {
+    padding: 50px;
+}
+
+.align-gauche {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+/***********    HEADER   ***********/
+
+.jumbotron {
+    background: rgba(255, 255, 255, 0);
+    min-height: 667px;
+}
+
+.container {
+    text-align: center;
+    height: 604px;
+    color: #fff;
+    padding: 50px;
+    position: relative;
+    top: 30%;
+}
+
+.container h1 {
+    margin-top: 140px;
+}
+
+.container .sous-titre {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+#chevron { 
+    height: 80px; 
+    width: 110px; 
+    display: block; 
+    position: absolute; 
+    bottom: 0; 
+    right: 5%; 
+    background-color: #222222; 
+    text-align: center; 
+    z-index: 6;
+    color: #fff; 
+    font-size: 40px; 
+    padding-right: 2px; 
+    padding-top: 25px; 
+}
+
+#chevron:hover { 
+    background-color: #2e7daf;
+}
+/***********    NAVBAR   ***********/
+
+.navbar  { 
+    border: 0px; 
+    background-color: #222222; 
+    position: absolute; 
+    top: 100%; 
+    right: 5%; 
+    width: 110px; 
+    z-index: 999; 
+}
+
+.navbar .navbar-collapse { 
+    padding: 0px; 
+    max-height: none; 
+}
+
+.navbar .navbar-nav { 
+    float: none; 
+}
+
+.navbar-nav { 
+    margin: 0px; 
+}
+
+.navbar .nav > li { 
+    display: block; 
+    float: none; 
+    height: 80px; 
+} 
+
+.navbar .nav > li a { 
+    display: block;  
+    height: 80px; 
+    text-align: center; 
+    padding-top: 30px; 
+    font-weight: 600; 
+    color: #fff; 
+    transition: all 1s;
+}
+
+.navbar .nav > li a:hover, .navbar .nav > li a:focus { 
+    color: #2e7daf;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { 
+    background: #2e7daf; 
+    color: #fff; 
+}
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar { 
+    background: #222222; 
+    color: #2e7daf;
+}
+
+.affix { 
+    position: fixed; 
+    top: 70px; 
+}
+
+.nav-menu-text {
+    color: #2e7daf;
+}
+
+.nav>li>a {
+    padding: 0;
+}
+
+/***********    PROFILE   ***********/
+#profile ul li {
+    list-style-image: url(../img/thumb-list-small.png);
+}
+
+#portrait {
+    border: 15px #444 solid;
+    margin-left: 10%;
+}
+
+/***********    EXPERIENCES   ***********/
+
+#experiences h3 {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.xp-details {
+    font-weight: lighter;
+}
+
+.xp-image {
+    width: 100px;
+}
+
+.separator {
+    height: 1px;
+    max-width: 880px;
+    background-color: #2e7daf;
+    opacity: 0.2;
+}
+
+.poste {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+/***********    ABILITIES   ***********/
+
+
+/***********    PROJECT   ***********/
+
+#project .row {
+    margin: auto;
+}
+
+#projects div {
+    margin-top: 20px;
+}
+
+#projects figure img {
+    height: 210px;
+    width: 315px;
+    border-radius: 40px;
+    transition: all 0.4s;
+}
+
+#projects figure:hover img {
+    opacity: 0.2;
+}
+
+#projects figure figcaption {
+    position: absolute;
+    top: 0;
+    padding: 30px;
+    z-index: 100;
+    opacity: 0;
+    transition: all 0.4s;
+    width: inherit;
+    text-align: center;
+}
+
+#projects figure figcaption:hover {
+    opacity: 1;
+}
+
+.vignette {
+    height: 210px;
+    width: 315px;
+    border-radius: 40px;
+    background-color: #2e7daf;
+    margin-left: 70px;
+}
+
+.vignette-title {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.vignette-text {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+/***********    CONTACT   ***********/
+
+.social-container {
+    list-style: none;
+}
+
+.social-container>li>a {
+    color: #666;
+}
+
+.social-container>li>a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    margin: 5px;
+    display: inline-block;
+    background: url('../img/sprite_cv.png') no-repeat;
+}
+
+.icon-mail {
+    background-position: 0 -48px;
+}
+
+.icon-mail:hover , .icon-mail.hovered {
+    background-position: 0 0px;
+}
+
+.icon-phone {
+    background-position: -48px -48px;
+}
+
+.icon-phone:hover, .icon-phone.hovered {
+    background-position: -48px 0px;
+}
+
+.icon-linkedin {
+    background-position: -96px -48px;
+}
+
+.icon-linkedin:hover, .icon-linkedin.hovered {
+    background-position: -96px 0px;
+}
+
+.icon-github {
+    background-position: -144px -48px;
+}
+
+.icon-github:hover, .icon-github.hovered {
+    background-position: -144px 0px;
+}
