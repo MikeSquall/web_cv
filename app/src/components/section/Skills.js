@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Skill from './Skills/Skill'
 
 export default class Skills extends React.Component {
