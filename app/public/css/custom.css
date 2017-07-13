@@ -289,9 +289,13 @@ b {
     text-decoration: none;
 }
 
+.social-link {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
 .social-li {
-    display: inline-block;
-    vertical-align: middle;
     padding: 10px;
 }
 
@@ -307,7 +311,7 @@ b {
     background-position: 0 -48px;
 }
 
-.icon-mail:hover , .icon-mail.hovered {
+.social-link:hover .icon-mail {
     background-position: 0 0px;
 }
 
@@ -315,7 +319,7 @@ b {
     background-position: -48px -48px;
 }
 
-.icon-phone:hover, .icon-phone.hovered {
+.social-link:hover .icon-phone {
     background-position: -48px 0px;
 }
 
@@ -323,7 +327,7 @@ b {
     background-position: -96px -48px;
 }
 
-.icon-linkedin:hover, .icon-linkedin.hovered {
+.social-link:hover .icon-linkedin {
     background-position: -96px 0px;
 }
 
@@ -331,6 +335,6 @@ b {
     background-position: -144px -48px;
 }
 
-.icon-github:hover, .icon-github.hovered {
+.social-link:hover .icon-github {
     background-position: -144px 0px;
 }
