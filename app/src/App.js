@@ -1,29 +1,24 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import About from './components/section/About';
-import Experience from './components/section/Experience';
+import Experiences from './components/section/Experiences';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 import Portfolio from './components/section/Portfolio';
 import Skills from './components/section/Skills';
-import Hello from './components/test'
 
 class App extends Component {
-  constructor(props) {
-      super(props);
-    }
-
   render() {
     return (
       <div className="App">
         <Header />
+        <Navbar />
         <About />
-        <Experience />
+        <Experiences />
         <Skills />
         <Portfolio />
         <Footer /> 
-        {/*<Hello firstName="squall" lastName="leonhart" showCorrect="true" />*/}
       </div>
     );
   }
