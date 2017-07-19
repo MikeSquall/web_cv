@@ -1,4 +1,5 @@
 import React from 'react';
+import Scrollspy from 'react-scrollspy'
 
 export default class Navbar extends React.Component {
     render() {
@@ -13,13 +14,17 @@ export default class Navbar extends React.Component {
           </div>
           {/* contenu du bouton quand affichage mobile */}
           <div className="collapse navbar-collapse navbar-ex1-collapse">
-            <ul className="nav navbar-nav">
-              <li className="active"><a href="#profile">À propos de moi</a></li>
+            <Scrollspy 
+              items={ ['profile', 'experiences', 'abilities', 'projects', 'contact'] } 
+              currentClassName="active"
+              className="nav navbar-nav"
+            >
+              <li><a href="#profile">À propos de moi</a></li>
               <li><a href="#experiences">Expériences</a></li>
               <li><a href="#abilities">Compétences</a></li>
               <li><a href="#projects">Projets</a></li>
               <li><a href="#contact">Contact</a></li>
-            </ul>
+            </Scrollspy>
           </div>
         </nav>
       );
