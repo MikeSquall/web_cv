@@ -30,9 +30,9 @@ export default class About extends React.Component {
               <h3 className="align-gauche">Ce que je fais de mon temps libre :</h3>
               <hr/>
               <ul>
-                <li>de la programmation Arduino</li>
-                <li>de la pâtisserie</li>
-                <li>du drone de loisir</li>
+                <li className="align-gauche">de la programmation Arduino</li>
+                <li className="align-gauche">de la pâtisserie</li>
+                <li className="align-gauche">du drone de loisir</li>
               </ul>
             </div>
           </div>

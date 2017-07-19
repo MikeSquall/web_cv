@@ -63,6 +63,10 @@ b {
     text-align: center;
 }
 
+ul {
+    padding: 0;
+}
+
 /***********    HEADER   ***********/
 
 .jumbotron {
@@ -193,6 +197,7 @@ b {
 
 .xp-details {
     font-weight: lighter;
+    text-align: left;
 }
 
 .xp-image {
