@@ -23,9 +23,10 @@ export default class Experiences extends React.Component {
             xpCity="Paris (10e)" 
             xpTitle="Développeur Backend" 
             xpDetails1="Ma première expérience en tant que développeur." 
-            xpDetails2={["Je participe au développement d'un ERP spécialisé \
-              (dans la gestion de contrats d'assurance) basé sur l'ERP open \
-              source", <a href='https://www.tryton.org'><strong>Tryton</strong></a>]} 
+            xpDetails2={["Je participe au développement d'un ERP spécialisé " +
+              "(dans la gestion de contrats d'assurance) basé sur l'ERP open" +
+              "source", 
+              <a href='https://www.tryton.org'><strong>Tryton</strong></a>]} 
             xpDetails3="Je suis également en charge du pilotage de la partie 
               Support client. J'ai mis en place des outils de suivi de 
               l'activité du support et des process de déclaration d'incidents 
@@ -96,9 +97,9 @@ export default class Experiences extends React.Component {
             xpTitle="Pâtissier" 
             xpDetails1={[
               "Mission longue en intérim en tant que commis ou chef de partie chez : ", <br/>, 
-              <a href="http://www.lamaisonduchocolat.fr/fr/" target="_blank">La Maison du Chocolat</a>, ", ",
-              <a href="http://www.poteletchabot.com/fr/accueil.html" target="_blank">Potel et Chabot</a>, ", ",
-              <a href="www.fauchon.com/" target="_blank">Fauchon</a>]}
+              <a href="http://www.lamaisonduchocolat.fr/fr/" target="_blank" rel="noopener noreferrer">La Maison du Chocolat</a>, ", ",
+              <a href="http://www.poteletchabot.com/fr/accueil.html" target="_blank" rel="noopener noreferrer">Potel et Chabot</a>, ", ",
+              <a href="www.fauchon.com/" target="_blank" rel="noopener noreferrer">Fauchon</a>]}
             xpDetails2=""
             xpDetails3=""
           />
@@ -117,7 +118,7 @@ export default class Experiences extends React.Component {
             xpCityMap="https://goo.gl/yczPQr" 
             xpCity="Paris (13e)" 
             xpTitle={[
-              <a href="http://pise.info/" target="_blank">
+              <a href="http://pise.info/" target="_blank" rel="noopener noreferrer">
                 Master 2 PISE - Projet Informatique et Stratégie d'Entreprise
               </a>]}
             xpDetails1="Le master que j'ai choisi pour acquérir des compétences 
@@ -137,7 +138,7 @@ export default class Experiences extends React.Component {
             xpCityMap="https://goo.gl/SvGCeQ" 
             xpCity="Paris (20e)" 
             xpTitle={[
-              <a href="http://formation-bts-assurances.esaassurance.com/formation_assurance/european_master_assurance_en_alternance.htm" target="_blank">
+              <a href="http://formation-bts-assurances.esaassurance.com/formation_assurance/european_master_assurance_en_alternance.htm" target="_blank" rel="noopener noreferrer">
                 Master 1 - Manager de l'assurance
               </a>]}
             xpDetails1="J'ai effectué cette première année de master pour 
@@ -156,7 +157,7 @@ export default class Experiences extends React.Component {
             xpCityMap="https://goo.gl/p5dt8L" 
             xpCity="La Défense" 
             xpTitle={[
-              <a href="http://www.enass.fr/licence-professionnelle-assurances/licence-en-assurances-en-alternance-ou-formation-initiale-fr-1-p18.html" target="_blank">
+              <a href="http://www.enass.fr/licence-professionnelle-assurances/licence-en-assurances-en-alternance-ou-formation-initiale-fr-1-p18.html" target="_blank" rel="noopener noreferrer">
                 Licence professionnelle Conseiller, Souscripteur, Gestionnaire en assurance
               </a>]}
             xpDetails1="J'ai fait cette licence pour me spécialiser en assurance 
@@ -176,7 +177,7 @@ export default class Experiences extends React.Component {
             xpCityMap="https://goo.gl/p5dt8L" 
             xpCity="La Défense" 
             xpTitle={[
-              <a href="http://www.ifpass.fr/formation-diplomante/bts-assurance-5-38-34.html" target="_blank">
+              <a href="http://www.ifpass.fr/formation-diplomante/bts-assurance-5-38-34.html" target="_blank" rel="noopener noreferrer">
                 BTS Assurance
               </a>]}
             xpDetails1="Suite à une reconversion professionnelle, j'ai choisit 
@@ -196,7 +197,7 @@ export default class Experiences extends React.Component {
             xpCityMap="https://goo.gl/pZHftu" 
             xpCity="Villiers-le-Bel (95)" 
             xpTitle={[
-              <a href="http://www.ima95.fr/metier/patissier" target="_blank">
+              <a href="http://www.ima95.fr/metier/patissier" target="_blank" rel="noopener noreferrer">
                 CAP / Mention Complémentaire Pâtisserie
               </a>]}
             xpDetails1="J'ai suivi ces formations car je souhaitais devenir 

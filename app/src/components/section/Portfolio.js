@@ -12,7 +12,7 @@ export default class Portfolio extends React.Component {
                 <hr/>
                 {/*  Web CV  */}
                 <div className="col-md-6 col-sm-12 col-xs-12">
-                    <a href="http://michaelarbib.com" target="_blank">
+                    <a href="http://michaelarbib.com" target="_blank" rel="noopener noreferrer">
                         <figure className="vignette">
                             <img src="img/michaelarbib_com.png" alt="Web CV"/>
                             <figcaption>
@@ -26,7 +26,7 @@ export default class Portfolio extends React.Component {
                 </div>
                 {/*  Coopengo  */}
                 <div className="col-md-6 col-sm-12 col-xs-12">
-                    <a href="https://github.com/coopengo/coog-admin" target="_blank">
+                    <a href="https://github.com/coopengo/coog-admin" target="_blank" rel="noopener noreferrer">
                         <figure className="vignette">
                             <img src="img/coog.png" alt="Coog-admin"/>
                             <figcaption>
@@ -45,7 +45,7 @@ export default class Portfolio extends React.Component {
                 <hr/>
                 {/*  Projet C  */}
                 <div className="col-md-6 col-sm-12 col-xs-12">
-                    <a href="https://github.com/MikeSquall/projet_c" target="_blank">
+                    <a href="https://github.com/MikeSquall/projet_c" target="_blank" rel="noopener noreferrer">
                         <figure className="vignette">
                             <img src="img/projet-c.png" alt="projet-c"/>
                             <figcaption>
@@ -59,7 +59,7 @@ export default class Portfolio extends React.Component {
                 </div>
                 {/*  Ludirent  */}
                 <div className="col-md-6 col-sm-12 col-xs-12">
-                    <a href="http://www.ludirent.fr" target="_blank">
+                    <a href="http://www.ludirent.fr" target="_blank" rel="noopener noreferrer">
                         <figure className="vignette">
                             <img src="img/ludirent.png" alt="Ludirent"/>
                             <figcaption>
@@ -74,7 +74,7 @@ export default class Portfolio extends React.Component {
                 
                 {/*  Kamisado  */}
                 <div className="col-md-6 col-sm-12 col-xs-12">
-                    <a href="https://github.com/MikeSquall/kamisado" target="_blank">
+                    <a href="https://github.com/MikeSquall/kamisado" target="_blank" rel="noopener noreferrer">
                         <figure className="vignette">
                             <img src="img/kamisado.png" alt="Kamisado"/>
                             <figcaption>
@@ -88,7 +88,7 @@ export default class Portfolio extends React.Component {
                 </div>
                 {/*  Blokus  */}
                 <div className="col-md-6 col-sm-12 col-xs-12">
-                    <a href="https://github.com/MikeSquall/java_blokus" target="_blank">
+                    <a href="https://github.com/MikeSquall/java_blokus" target="_blank" rel="noopener noreferrer">
                         <figure className="vignette">
                             <img src="img/blokus.png" alt="Blokus"/>
                             <figcaption>
@@ -108,7 +108,7 @@ export default class Portfolio extends React.Component {
                 <hr/>
                 {/*  ???  */}
                 <div className="col-md-6 col-sm-12 col-xs-12">
-                    <a href="" target="_blank">
+                    <a href="" target="_blank" rel="noopener noreferrer">
                         <figure className="vignette">
                             <img src="img/en-cours.png" alt="WIP"/>
                             <figcaption>
